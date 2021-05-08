@@ -24,11 +24,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/minetact.loader.js";
+      var loaderUrl = buildUrl + "/minetact2.loader.js";
       var config = {
-        dataUrl: buildUrl + "/minetact.data.unityweb",
-        frameworkUrl: buildUrl + "/minetact.framework.js.unityweb",
-        codeUrl: buildUrl + "/minetact.wasm.unityweb",
+        dataUrl: buildUrl + "/minetact2.data.unityweb",
+        frameworkUrl: buildUrl + "/minetact2.framework.js.unityweb",
+        codeUrl: buildUrl + "/minetact2.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "MineTact",
@@ -45,8 +45,8 @@
         container.className = "unity-mobile";
         config.devicePixelRatio = 1;
       } else {
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1280px";
+        canvas.style.height = "720px";
       }
       loadingBar.style.display = "block";
 
